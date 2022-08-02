@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./assets/ppt.png" alt="game logo" width="400px" style="border-radius: 10px"/>
+  <img src="./assets/ppt.png" alt="game logo" width="200px"/>
   <br>
 </h1>
 
@@ -23,7 +23,7 @@ El primer jugador en obtener 3 victorias sera el ganador del duelo.
 
 Puedes intertarlo cuantas veces quieras.
 
-<span style="text-decoration: underline"> [Aquí](https://cristhian-medina.github.io/)</span> puedes enfrentarte a la maquina en duelo de **piedra, papel o tijera**.
+<span style="text-decoration: underline"> [Aquí](https://cristhian-medina.github.io/rock_paper_scissors/)</span> puedes enfrentarte a la maquina en duelo de **piedra, papel o tijera**.
 
 > Este proyecto fue desarrollado en un lapso de 15 horas.
 > 
