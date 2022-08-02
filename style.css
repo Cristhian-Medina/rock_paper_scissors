@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+.ly-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(80px, auto);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.ly-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.is-float-top {
+    position: absolute;
+}
+.c-header {
+    grid-column: 1/4;
+}
+.c-options {
+    position: relative;
+    height: 100px;
+    grid-column: 2/3;
+    background-color: white;
+    border-radius: 20px;
+}
+.c-options-title {
+    font-size: 16px;
+    top: -10px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.c-score {
+    grid-column: 3/4;
+}
+.c-score-body {
+    padding-top: 10px;
+}
+.c-score-title {
+    color: crimson;
+    text-shadow: 0 0 5px white;
+}
+.c-score-title span {
+    color: black;
+    text-shadow: none;
+    font-style: italic;
+    padding: 0 10px;
+}
+.c-score-body span {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.c-result {
+    width: 500px;
+    height: 200px;
+    grid-column: 2/3;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.c-result-up {
+    width: 80%;
+    font-weight: bold;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+    color: crimson;
+    border-bottom: 2px dotted black;
+}
+.c-result-down {
+    font-weight: bold;
+    color: crimson;
+}
+.c-result-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.c-result-image-title {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: -10px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    padding: 5px;
+    color: crimson;
+    background-color: white;
+    border: 2px solid crimson;
+}
+.c-modal-wrapper {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.7);
+    background-image: url(./assets/confetti-2.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.c-modal-title {
+    font-size: 36px;
+    color: crimson;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.c-modal-btn {
+    font-size: 24px;
+    font-weight: bold;
+    color: crimson;
+    background-color: white;
+    border: 2px solid crimson;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+.icon-restart {
+    padding-left: 30px;
+    background-image: url(./assets/reload.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.is-hidden {
+    display: none;
+}
