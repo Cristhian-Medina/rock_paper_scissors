@@ -23,14 +23,17 @@ El primer jugador en obtener 3 victorias sera el ganador del duelo.
 
 Puedes intertarlo cuantas veces quieras.
 
-<span style="text-decoration: underline"> [Aquí](https://cristhian-medina.github.io/rock_paper_scissors/)</span> puedes enfrentarte a la maquina en duelo de **piedra, papel o tijera**.
+<span style="text-decoration: underline"> [Aquí](https://rock-paper-scissors-three-beta.vercel.app/)</span> puedes enfrentarte a la maquina en duelo de **piedra, papel o tijera**.
 
 > Este proyecto fue desarrollado en un lapso de 15 horas.
 > 
 > Utilizando las tecnologias CSS3, HTML5 y JavaScript.
 >
->Tiene un enfoque a la programación funcional.
+> Tiene un enfoque a la programación funcional.
 >
 > Manupulación del DOM (Document Object Model).
 >
-> Se utilizo JSDoc como generador de documentacion. 
+> Se utilizo JSDoc como generador de documentacion.
+>
+> Se desplego usando vercel.com
+
